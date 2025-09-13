@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "private": false,
   "description": "A comprehensive grocery list application with 300+ food items, smart search, and persistent storage",
-  "keywords": ["grocery", "shopping", "list", "food", "nextjs", "typescript", "tailwindcss"],
+  "keywords": [
+    "grocery",
+    "shopping",
+    "list",
+    "food",
+    "nextjs",
+    "typescript",
+    "tailwindcss"
+  ],
   "author": "Smart Grocery List Team",
   "license": "MIT",
   "repository": {
@@ -15,9 +23,9 @@
     "url": "https://github.com/yourusername/smart-grocery-list/issues"
   },
   "scripts": {
-    "dev": "PORT=3000 next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && PORT=3000 next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {
